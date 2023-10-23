@@ -14,6 +14,7 @@ public class ClearInputData {
         this.repeatPassword = "";
     }
 
+
     String getUsername() {
         return username;
     }
