@@ -58,6 +58,9 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface, 
         accounts.put(user.getName(), user);
         this.save();
     }
+    public boolean clear(File file){
+        return file.delete();
+    }
 
     @Override
     public User get(String username) {
